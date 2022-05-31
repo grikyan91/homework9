@@ -31,6 +31,6 @@ jobs:
         appName: wzieba/Sample-App
         token: 815bdc350bba4905d70f8e85bf69b36594c846dd
         group: Testers
-        file: test.apk
+        file: grikyan91/test/Build/Branches/mastertest.apk
         notifyTesters: true
         debug: false
