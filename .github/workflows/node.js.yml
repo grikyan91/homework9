@@ -25,3 +25,5 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm test
+    - name: App Center
+      uses: wzieba/AppCenter-Github-Action@v1.3.3
