@@ -2,4 +2,3 @@ node_modules
 .idea
 .DS_Store
 allure-results
-allure-report
