@@ -30,4 +30,4 @@ jobs:
         name: artifact-report
         path: |
           report.html
-          jest-html-reporters-attach/report
+          allure-results
