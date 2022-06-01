@@ -25,12 +25,7 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm test
-    - name: Upload artefact to Relisio
-      uses: Studio-41/relisio-artefact-action@v1
+    - uses: actions/upload-artifact@v3
       with:
-        api-key: ${{ secrets.RELISIO_API_KEY }}
-        workspace-path: ${{ secrets.RELISIO_WORKSPACE }}
-        resource-id: ${{ secrets.RELISIO_PRODUCT_A }}
-        resource-type: product
-        artefact-scope: inherit
-        artefact-path: ./program.exe
+        name: artifact-report
+        path: /report.html
